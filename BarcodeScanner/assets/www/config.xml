@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.truevalue.bctest"
+        versionCode="17" 
+        version   = "0.1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Barcode Test</name>
+
+    <description>
+        Barcode Test 
+    </description>
+
+    <author email="michael.weeder@truevalue.com">
+        Michael Weeder 
+    </author>
+
+    <preference name="phonegap-version" value="2.0.0" />
+    <gap:plugin name="BarcodeScanner" /> <!-- latest release -->
+    
+</widget>
